@@ -5,7 +5,7 @@ const windowHeight = Dimensions.get('window').height;
 
 const styles = StyleSheet.create({
   root: {
-    height: windowHeight /2,
+    height: windowHeight / 2,
     backgroundColor: 'rgb(22,22,22)',
     marginHorizontal: 8,
     marginVertical: 4,
