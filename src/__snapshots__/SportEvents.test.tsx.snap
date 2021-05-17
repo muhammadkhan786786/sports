@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SportEvents Error while loading the sport events text should be visible upon error 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+  >
+    Error while loading the sport events
+  </Text>
+</View>
+`;
+
+exports[`SportEvents List of sport events should be visible if data prop is given 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "bet_allowed": true,
+        "bettable": true,
+        "chart_time_period": null,
+        "created": "2021-05-10T00:34:50.887745Z",
+        "description": null,
+        "display_order": 0,
+        "end_date": null,
+        "full_slug": "/sport/football/germany-bundesliga/2021/05/16/18-30/rb-leipzig-vs-vfl-wolfsburg",
+        "hidden": false,
+        "id": "42207308",
+        "inplay_enabled": true,
+        "modified": "2021-05-16T20:23:44.059361Z",
+        "name": "RB Leipzig vs VfL Wolfsburg",
+        "parent_id": "30088540",
+        "seo_description": null,
+        "short_name": "RBL vs. VFL",
+        "slug": "rb-leipzig-vs-vfl-wolfsburg",
+        "special_rules": null,
+        "start_date": "2021-05-16",
+        "start_datetime": "2021-05-16T18:30:00Z",
+        "state": "ended",
+        "type": "football_match",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgb(22,22,22)",
+              "borderRadius": 4,
+              "flex": 1,
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+              "marginVertical": 4,
+              "paddingHorizontal": 12,
+              "paddingVertical": 16,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                RB Leipzig vs VfL Wolfsburg
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                ended
+              </Text>
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontStyle": "italic",
+              }
+            }
+          >
+            RBL vs. VFL
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "marginTop": 4,
+              }
+            }
+          >
+            Description of the event is not provided at the moment.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`SportEvents Loading text should be visible 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+  >
+    Loading...
+  </Text>
+</View>
+`;
