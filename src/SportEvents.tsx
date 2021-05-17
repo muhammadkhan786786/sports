@@ -38,7 +38,9 @@ export default function SportEvents({
   if (!loading && error) {
     return (
       <View style={styles.root}>
-        <Text style={styles.textColor}>Error while loading the sport events</Text>
+        <Text style={styles.textColor}>
+          Error while loading the sport events
+        </Text>
       </View>
     );
   }

@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function SportEventDetails ({navigation}: any): JSX.Element {
+export default function SportEventDetails({navigation}: any): JSX.Element {
   const {state} = navigation;
   const event = state.params.data;
 

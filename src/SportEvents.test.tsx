@@ -37,7 +37,7 @@ describe('SportEvents', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  
+
   test('Error while loading the sport events text should be visible upon error', () => {
     const tree = renderer
       .create(<SportEvents loading={false} error={true} />)
