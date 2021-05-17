@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopularEventItemView component PopularEventItemView should renders all the views if item prop is given 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgb(22,22,22)",
+        "borderRadius": 4,
+        "flex": 1,
+        "justifyContent": "center",
+        "marginHorizontal": 8,
+        "marginVertical": 4,
+        "paddingHorizontal": 12,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          RB Leipzig vs VfL Wolfsburg
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          ended
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontStyle": "italic",
+        }
+      }
+    >
+      RBL vs. VFL
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "marginTop": 4,
+        }
+      }
+    >
+      Description of the event is not provided at the moment.
+    </Text>
+  </View>
+</View>
+`;
