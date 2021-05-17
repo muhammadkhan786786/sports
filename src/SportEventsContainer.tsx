@@ -1,5 +1,15 @@
+/**
+ * Created By: Muhammad Khan
+ * Logic Explanation
+ * The container/component logic is implemented here where container component only resolves
+ * the data logic while component just handle the UI part doesn't need to know about the
+ * data fetching logic.It has the following advantages:
+ * 1- Writing snapshot test cases for components would become really easier
+ * 2- Data fetching logic would be sparated from UI part
+ * Please feel to ask any question
+ */
+
 import React, {useEffect, useState} from 'react';
-import {Text} from 'react-native';
 import {getSportEvents, SPORT_EVENT_IDS_URL} from './api/getSportEvents';
 import SportEvents from './SportEvents';
 import {SportEventTypes} from './types';
